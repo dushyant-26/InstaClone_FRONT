@@ -16,7 +16,7 @@ function Home() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch(`${BACK_END_DOMAIN}/friendPosts`, {
+    fetch(`${BACK_END_DOMAIN}/allPosts`, {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("jwt"),
       },

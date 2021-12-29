@@ -16,7 +16,7 @@ function ExplorePage() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch(`${BACK_END_DOMAIN}/allPosts`, {
+    fetch(`${BACK_END_DOMAIN}/friendPosts`, {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("jwt"),
       },
