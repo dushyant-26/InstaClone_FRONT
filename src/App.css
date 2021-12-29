@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+.navbar-brand,
+.insta-font {
+  font-family: "Grand Hotel", "cursive";
+}
+.profile {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.gallery img {
+  width: 30%;
+  border: 1px;
+}
+.commentBox {
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: groove;
+}
+.commentBox:focus {
+  outline: none;
+  border-color: blue;
+}
+
+.home.card img {
+  height: "300px";
+}
+.svg-inline--fa {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+.fa-trash {
+  font-size: 1em;
+  margin-top: 3px;
+}
+@media screen and (min-width: 560px) {
+  .post,
+  .navUpdate,
+  .pass {
+    max-width: 60%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .post,
+  .navUpdate,
+  .pass {
+    max-width: 40%;
+  }
+}
+.default {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}

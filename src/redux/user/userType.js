@@ -1,0 +1,4 @@
+export const SAVE_USER = "SAVE_USER";
+export const DELETE_USER = "DELETE_USER";
+export const UPDATE_USER_FOLLOW = "UPDATE_USER_FOLLOW";
+export const UPDATE_PROFILE_PIC = "UPDATE_PROFILE_PIC";
